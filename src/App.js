@@ -11,7 +11,6 @@ function App() {
     const [apple, setApple] = React.useState(0);
     const [kiwi, setKiwi] = React.useState(0);
 
-
     function onSubmit(data) {
         console.log(data);
     }
