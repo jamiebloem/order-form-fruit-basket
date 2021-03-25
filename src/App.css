@@ -1,0 +1,130 @@
+.fruit-order {
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    grid-template-areas:
+    "A B"
+    "C B"
+    "D B"
+    "E B";
+}
+
+.fruit-container {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(29,117,119,0.9);
+}
+
+
+.strawberry {
+    grid-area: A;
+}
+
+.banana {
+    grid-area: C;
+}
+
+.apple {
+    grid-area: D;
+}
+
+.kiwi {
+    grid-area: E;
+}
+
+h1, p {
+    margin: 30px;
+    padding: 20px;
+}
+.order-form {
+    display: block;
+    justify-content:space-between;
+    border-style: solid;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(29,117,119,0.9);
+}
+
+label {
+    display: block;
+    margin: 20px;
+    /*padding: 20px;*/
+}
+
+button {
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/*!** {*!*/
+/*!*    margin:0;*!*/
+
+/*!*}*!*/
+
+
+/*!*body {*!*/
+/*!*    padding: 100px;*!*/
+
+/*!*}*!*/
+
+/*!*h1 {*!*/
+/*!*    padding: 10px;*!*/
+/*!*}*!*/
+
+
+/*!*form{*!*/
+/*!*    display: flex;*!*/
+/*!*    flex-direction: column;*!*/
+/*!*    row-gap: 10px;*!*/
+/*!*    padding: 10px;*!*/
+/*!*}*!*/
+
+/*!*.container {*!*/
+/*!*    padding: 10px 10px 10px 10px;*!*/
+/*!*    margin: 10px;*!*/
+/*!*    border: 1px solid #000;*!*/
+/*!*    text-align: center;*!*/
+/*!*    width: 400px;*!*/
+/*!*    !*text-align: center;*!*!*/
+/*!*    display: flex;*!*/
+
+/*!*}*!*/
+/*!*.count-button {*!*/
+/*!*    padding: 2px 5px;*!*/
+/*!*    margin: 0 5px;*!*/
+/*!*}*!*/
+
+/*!*.reset {*!*/
+/*!*    padding: 10px;*!*/
+/*!*}*!*/
+
+/*!*.order-form {*!*/
+/*!*    flex: 1;*!*/
+/*!*    flex-direction: column;*!*/
+/*!*    justify-content: left;*!*/
+/*!*    align-items: left;*!*/
+/*!*    margin: 10px 10px 10px;*!*/
+/*!*    border: 0.5rem solid peachpuff;*!*/
+/*!*    border-radius: 50px;*!*/
+/*!*    width: 300px;*!*/
+/*!*    background-color: antiquewhite;*!*/
+/*!*}*!*/
+
+/*!*.container:container {*!*/
+
+/*!*}*!*/
